@@ -1,0 +1,69 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+build/
+*.iml
+*.lock
+
+# Android
+my_app/android/.gradle
+my_app/android/.idea
+my_app/android/local.properties
+my_app/android/captures/
+my_app/android/gradlew.bat
+my_app/android/gradlew
+
+# iOS
+my_app/ios/Pods/
+my_app/ios/Podfile.lock
+my_app/ios/.symlinks/
+my_app/ios/Flutter/Flutter.podspec
+my_app/ios/Flutter/Flutter.framework
+my_app/ios/Flutter/Flutter.modulemap
+
+# macOS
+my_app/macos/Pods/
+my_app/macos/Podfile.lock
+
+# Web
+my_app/build/web/
+
+# Linux
+my_app/linux/flutter/ephemeral/
+
+# Windows
+my_app/windows/flutter/ephemeral/
+
+# Node.js / Server
+server/node_modules/
+server/.env
+server/.env.local
+server/.env.*.local
+server/dist/
+server/.next
+server/out/
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+server/.DS_Store
+server/coverage/
+server/.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Generated files
+.env.example.local
